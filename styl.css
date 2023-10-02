@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background: #F9F9F9;
+    font: 18px "Poppins";
+    color: #414042;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+    min-width: 960px;
+}
+
+body > header {
+    height: 100px;
+    width: 100%;
+    background: #00386B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+#logo {
+    height: 40px;
+    margin: auto 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(obrazky/logo.png)   no-repeat;
+    background-size: 40px 40px;
+}
+
+#logo > * {
+    margin: 0 0 0 50px;
+}
+
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#logo small {
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+#logo h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #EF6534;
+}
+
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+       filter: brightness(115%) contrast(85%);
+    border: 0;
+}
+
+.kontakt-tlacitko {
+    background: #EF6534;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: Poppins;
+    font-weight: bold;
+    color: #00386B;
+}
+
+article header {
+    height: 80px;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    color: #00386B;
+    border-bottom:  4px solid #EF6534;
+    padding: 10px 0;
+}
+
+article h2 {
+    font-size: 2em;
+    color: #00386B;
+    padding: 10px 0;
+}
+
+article h3
+article h4
+article h5
+article h6 {
+    color: #00386B;
+    padding: 10px 0;
+}
+
+.avatar {
+    float: right;
+    width: 300px;
+    padding-left: 10px;
+    filter: grayscale(1);
+}
+
+article section p   {
+    line-height: 1.8em;
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a   {
+    color: #EF6534;
+}
+
+article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px   50px    10px    50px;
+}
+
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align:top;
+    border: 1px solid grey;
+
+}
+
+#dovednosti {
+    border-collapse: collapse;
+}
+
+#reference img {
+    border: 1px solid gray;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+}
+
+
+h2 {
+    font-size: 1.7 em;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+.cistic {
+    clear: both;
+}
+
+.reference-tlacitko {
+    background: #70B73A;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px  25px;
+    border-radius: 25px;
+}
+
+html {
+    background: #414042;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
+    height: 100px;
+    color: white;
+    background: #414042;
+    padding: 50px 0 0 0;
+    clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.vlevo {
+    float: left;
+}
