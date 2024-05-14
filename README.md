@@ -1,1 +1,1 @@
-
+Stránka je jednoduchá a přehledná. Na úvodní stránce můžete nalézt mé jméno, František Belay, a titul "webdeveloper". Navigační menu vám umožňuje snadno se přesouvat mezi různými částmi webu, jako jsou "O mně", "Dovednosti", "Reference" a "Kontakt". Na stránce "O mně" najdete krátký popis, fotku a informace o mně, mé práci s počítačem a cestě, kterou jsem podnikl, abych se stal programátorem. Tento web jsem vytvořil jako součást kurzu u ITnetwork s.r.o. v roce 2023.
